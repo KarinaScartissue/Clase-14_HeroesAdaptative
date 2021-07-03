@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+#desc {
+    background-color: #D1891C;
+    width: 100%
+}
+h1 {
+    font-size: 40px;
+
+}h2 {
+    font-size: 30px;
+    padding-top: 74px;
+    text-align: center;
+    text-transform: uppercase
+}
+h3 {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+p {
+    font-size: 16px
+}
+#title {
+    background-color: #00669F;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%
+}
+@media (max-width: 600px) {
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center
+}
+.card {
+    position: relative;
+    background-color: #F3F3F3;
+    width: 278px;
+    margin: 15px;
+    height: 600px;
+    z-index: 1;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.imgback {
+    width: 278px;
+    height: 179px;
+    border-radius: 5% 5% 0% 0%;
+}
+.like {
+    position: absolute;
+    top: 15.68px;
+    left: 21px;
+}
+.perfil {
+    position: absolute;
+    top: 132px;
+    left: 89px;
+    border-radius: 50%;
+    width: 122px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info {
+    position: relative;
+    width: 258px;
+    top: 10px;
+    left: 10px;
+}
+button {
+    position: absolute;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 15px;
+    padding: 15px;
+    height: 48.5px;
+    width: 140px;
+    right: 69px;
+    bottom: 40px;
+}
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #00669F;
+    color: #FFF9F9;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center
+}
+footer img {
+    height: 20px;
+}
+#divtxt {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    font-size: 0.5em;
+}
+#divimg {
+    position: relative;
+    padding: 10px
+}
+}
+@media (min-width: 360px) {
+
+    footer img {
+        height: 20px;
+    }
+    #divtxt {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+    #divimg {
+        position: relative;
+        padding: 10px
+    }
+    footer p {
+        font-size: 1em;
+    }
+}
+@media (min-width: 601px) {
+    main {
+        min-height: 1000px
+    }
+    #container {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+    }
+    .card {
+        position: relative;
+        background-color: #F3F3F3;
+        width: 278px;
+        margin: 15px;
+        height: 600px;
+        z-index: 1;
+        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    }
+    .imgback {
+        width: 278px;
+        height: 179px;
+        border-radius: 5% 5% 0% 0%;
+    }
+    .like {
+        position: absolute;
+        top: 15.68px;
+        left: 21px;
+    }
+    .perfil {
+        position: absolute;
+        top: 132px;
+        left: 89px;
+        border-radius: 50%;
+        width: 122px;
+        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .info {
+        position: relative;
+        width: 258px;
+        top: 10px;
+        left: 10px;
+    }
+    button {
+        position: absolute;
+        background-color: #00669F;
+        color: #F3F3F3;
+        font-size: 15px;
+        padding: 15px;
+        height: 48.5px;
+        width: 140px;
+        right: 69px;
+        bottom: 40px;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        background-color: #00669F;
+        color: #FFF9F9;
+        justify-content: space-between;
+        padding: 5px;
+        align-items: center
+    }
+    footer img {
+        height: 20px;
+    }
+    #divtxt {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+
+    }
+    #divimg {
+        position: relative;
+        padding: 10px
+    }
+}
