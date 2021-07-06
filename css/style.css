@@ -6,13 +6,31 @@
     box-sizing: border-box
 }
 #desc {
-    background-color: #D1891C;
+    background-color: #1CD1B0;
     width: 100%
+}
+header img {
+    height: 75px;
+    padding: 5px;
+    border-radius: 50%
+}
+nav {
+    background-color: #001D2D;
+    color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+li {
+    padding: 10px;
 }
 h1 {
     font-size: 40px;
-
-}h2 {
+}
+h2 {
     font-size: 30px;
     padding-top: 74px;
     text-align: center;
@@ -22,11 +40,13 @@ h3 {
     font-size: 15px;
     padding: 10px 30px;
 }
-
 p {
     font-size: 16px
 }
 #title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: #00669F;
     color: white;
     padding: 15px 30px;
@@ -131,7 +151,7 @@ footer p {
 }
 @media (min-width: 601px) {
     main {
-        min-height: 100vh;
+        min-height: 90vh;
         display: flex;
         align-content: center;
         justify-content: center
