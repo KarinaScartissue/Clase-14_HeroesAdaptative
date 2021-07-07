@@ -96,7 +96,7 @@ span {
     font-size: 1.3em
 }
 @media (max-width: 600px) {
-input, select {
+input, select, textarea {
     font: 'Karla';
     font-size: 20px;
     border-width: 1.5px;
@@ -104,6 +104,14 @@ input, select {
     padding: 15px;
     margin: 10px;
     width: 95%
+    }
+#container-form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: left;
+        width: 95%
     }
 footer {
     position: relative;
