@@ -18,6 +18,12 @@ nav {
     background-color: #001D2D;
     color: #FFFFFF;
 }
+a:link {
+    color: white   
+}
+a:visited {
+    color: white
+}
 ul {
     list-style-type: none;
     display: flex;
@@ -53,12 +59,7 @@ p {
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%
 }
-a:link {
-    color: white   
-}
-a:visited {
-    color: white
-}
+
 @media (max-width: 600px) {
 #container {
     position: relative;

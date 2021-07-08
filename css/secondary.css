@@ -45,10 +45,10 @@ form {
 label{
     margin-bottom: 50px
 }
-a:link {
+form a:link {
     color: #17A9FB   
 }
-a:visited {
+form a:visited {
     color: #17A9FB
 }
 #register {
@@ -79,7 +79,7 @@ textarea {
     justify-content: space-between;
     width: 95%;
 }
-button {
+form button {
     padding: 15px;
     margin: 10px;
     border-radius: 25px;
