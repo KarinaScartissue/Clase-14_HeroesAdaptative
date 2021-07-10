@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Heroes adaptable</title>
+</head>
+
+<body>
+    <header>
+        <section id="desc">
+            <h3>20% de descuento en todos los productos</h3>
+        </section>
+        <section id="title">
+            <a href="index.html"><img src="img/logotienda.jpg"></a>
+            <div>
+                <h1>Tienda de Super Héroes</h1>
+            </div>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="register.html">Registrarme</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="add_form">
+            <div id="head_form">
+                <h4>Añadí tu super héroe!</h4>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <form action="/registro" method="POST">
+                <div class="form-row">
+                    <div class="form-row-item">
+                        <label for="name">*Nombre</label><br>
+                        <input type="text" name="name" class="name" required>
+                    </div>
+                    <div class="form-row-item">
+                        <label for="species">*Especie</label><br>
+                        <select name="species" class="species" required>
+                            <option value="species" disabled selected hidden>Especie</option>
+                            <option value="species">Humano</option>
+                            <option value="species">Kriptoniano</option>
+                            <option value="species">Amanzona</option>
+                            <option value="species">Atlantes</option>
+                            <option value="species">Marcianos Verdes</option>
+                            <option value="species">Marcianos Blancos</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-row-item">
+                        <label for="date">Fecha</label><br>
+                        <input type="date" class="date" min="1900-01-01" step="1">
+                    </div>
+                    <div class="form-row-item">
+                        <label>Agregar Foto</label><br>
+                        <input type="file" id="file" value="file">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-row-item">
+                        <textarea type="text" name="description" id="description" placeholder="Descripción"></textarea>
+                    </div>
+                    <div class="form-row-item">
+                        <div>
+                            <label for="power">Poderes</label><br>
+                            <input type="checkbox" class="power" name="power" value="volar" class="checkmark">
+                            <label for="power"> Volar</label><br>
+                            <input type="checkbox" class="power" name="power" value="superinteligencia">
+                            <label for="power"> Superinteligencia</label><br>
+                            <input type="checkbox" class="power" name="power" value="vistalaser">
+                            <label for="power"> Vista de rayo láser</label><br>
+                            <input type="checkbox" class="power" name="power" value="billetera">
+                            <label for="power"> Billetera gorda</label><br>
+                        </div>
+                        <hr>
+                        <div>
+                            <label for="kind">Tipo de personaje</label><br>
+                            <input type="radio" name="kind" class="kind" value="hero">
+                            <label>Héroe / Heroína</label><br>
+                            <input type="radio" name="kind" class="kind" value="villain">
+                            <label>Villano / Villana</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <input type="submit" id="add_hero" value="Añadir">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="divtxt">
+            <p>Todos los derechos reservados a Karina Dominguez - Front End 1</p>
+        </div>
+        <div id="divimg"></div>
+        <img src="img/logogithub.png">
+    </footer>
+</body>
+
+</html>
